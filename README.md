@@ -2,16 +2,16 @@
 
 ## Getting Started
 
-1. Setup phpunit/guzzle run `composer install` on CLI
-2. Run Test cases just simply run `phpunit tests`
-3. To test public method/instances just run `php src/Views.php`
+1. Set up phpunit/guzzle. Run `composer install` in CLI.
+2. To run test cases, simply run `phpunit tests`.
+3. To test public method/instances, run `php src/Views.php`.
 
 Note: Updated composer packages to the latest version.
 
 
 ## Create a Tree parsing class
 
-The class need to load the JSON representation of a tree from our API at: 
+The class needs to load the JSON representation of a tree from our API at: 
 https://zingtree.com/api/json.php?tree_id=TREE_ID
 
 The TREE_ID will be provided at the time of construction of the class instance.
